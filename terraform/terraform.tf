@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "vproactions08"
+    bucket = "gitop08sterratstate"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
